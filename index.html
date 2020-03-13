@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta />
+  <title>show manager</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+
+<body>
+
+  <div id="title-container"></div>
+  <div id="navigation"></div>
+
+<!----------------------------------------------------->
+  <!-- start HOME -->
+  <div class="subpage" id="home">
+
+  <div id="subtitle"></div>
+    <div id="homepage-wrapper">
+
+
+      <div id="description-slideshow-wrapper">
+        <div id="description"></div>
+
+        <div id="slideshow-container"></div>
+        
+        <div id="prev-next-arrows" style="display: inline; margin: 20px;">
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+        </div>
+
+      </div> <!-- end description-slideshow-wrapper -->
+    </div> <!-- end homepage-wrapper -->
+
+  </div> <!-- end HOME -->
+
+
+<!----------------------------------------------------->
+  <!-- start SUBPAGE 1 -->
+  <div class="subpage" id="subpage-1">
+
+  <div id="form">
+    <p>Enter show details and click submit to save show.</p>
+      <form id="show-form" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+          method="post">
+        date of show: <input type="date" name="showdate"><br>
+        headlining band: <input type="text" name="showband"><br>
+        venue: <input type="text" name="showvenue"><br>
+        <input type="submit" value="submit">
+      </form>
+  </div>
+
+  </div> <!-- end SUBPAGE 1 -->
+
+
+<!----------------------------------------------------->
+  <!-- start SUBPAGE 2 -->
+  <div class="subpage" id="subpage-2">
+
+    <div id="scrollbox">
+      <div id="scrollbox-header"></div>
+      <div id="upcoming-shows-list"></div>
+    </div>
+
+  </div> <!-- end SUBPAGE 2 -->
+
+
+<!----------------------------------------------------->
+  <!-- start SUBPAGE 3 -->
+  <div class="subpage" id="subpage-3">
+
+    <div id="links-wrapper">
+    <h1>Venue Information</h1>
+    <p>For more information on shows, or to purchase tickets, contact the venues directly.</p>
+
+    <br>
+
+      <table id="table">
+        <col width="225">
+        <col width="350">
+        <col width="100">
+
+        <tr>
+          <th>Venue</th>
+          <th>Address</th>
+          <th>Website</th>
+        </tr>
+
+        <tr>
+          <td>Aladdin Theater</td>
+          <td>3017 SE Milwaukie Avenue, Portland OR</td>
+          <td><a href="https://www.aladdin-theater.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Bit House Saloon</td>
+          <td>727 SE Grand Avenue, Portland OR</td>
+          <td><a href="https://bithousesaloon.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Crystal Ballroom</td>
+          <td>1332 W Burnside Street, Portland OR</td>
+          <td><a href="https://www.crystalballroompdx.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Gorge Ampitheater</td>
+          <td>754 Silica Road NW, George WA</td>
+          <td><a href="http://www.georgeamphitheatre.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>High Water Mark Lounge</td>
+          <td>6800 NE MLK Jr Boulevard, Portland OR</td>
+          <td><a href="http://highwatermarklounge.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Mississippi Studios</td>
+          <td>3939 N Mississippi Avenue, Portland OR</td>
+          <td><a href="https://www.mississippistudios.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Polaris Hall</td>
+          <td>635 N Killingsworth Court, Portland OR</td>
+          <td><a href="https://www.polarishall.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Revolution Hall</td>
+          <td>1300 SE Stark Street #203, Portland OR</td>
+          <td><a href="https://www.revolutionhall.com/">website</a></td>
+        </tr>
+
+        <tr>
+          <td>Wonder Ballroom</td>
+          <td>128 NE Russell Street, Portland, OR</td>
+          <td><a href="https://wonderballroom.com/">website</a></td>
+        </tr>
+
+      </table>
+    </div>
+
+
+
+  <div id="download-wrapper-wrapper">
+    <p>click the image to download a venue map</p>
+    <div id="download-wrapper">
+      <a href="venuemap.pdf" download="newfilename">
+        <img src="map-icon.png" width="100" height="100"></img>
+      </a>
+    </div>
+  </div>
+
+
+  </div> <!-- end SUBPAGE 3 -->
+
+
+
+
+<script src="./dist/main.js"></script>
+
+</body>
+
+</html>
