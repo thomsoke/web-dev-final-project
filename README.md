@@ -1,11 +1,13 @@
 # show tracker website :notes:
 
-### description
+## description
 **final project for osu cs 290 web development <br>
 grade 90/90**
 
 
-<br><br><br>
+<br>
+***
+<br><br>
 
 
 ### :small_blue_diamond: fulfills following requirements:
@@ -21,7 +23,7 @@ grade 90/90**
 - uses at least html, css, and javascript
 
 
-
+<br><br><br>
 
 
 ### :zap: future features to implement
