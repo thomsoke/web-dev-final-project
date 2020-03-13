@@ -1,8 +1,10 @@
 # show tracker website :notes:
 
 ### description
-**final project for osu cs 290 web development**
-**grade 90/90**
+**final project for osu cs 290 web development
+grade 90/90**
+
+
 
 
 
@@ -17,6 +19,8 @@
 - 1 button to download files (map, menu, personal cv, etc), either opening in browser or download to computer
 - link that leads to outside webpages (linkedin, yelp, etc)
 - uses at least html, css, and javascript
+
+
 
 
 
