@@ -1,12 +1,12 @@
 # show tracker website :notes:
 
+### description
 **final project for osu cs 290 web development**
-
 **grade 90/90**
 
 
 
-### :large_blue_diamond: fulfills following requirements:
+### :small_blue_diamond: fulfills following requirements:
 - webpages should be presentable as a whole, with a user friendly interface
 - contains pictures and/or videos that should be placed properly, easy to see, have proper size and resolution
 - website has a total of 4 pages, including 1 homepage and at least 3 subpages, each with a horizontal menu that leads to the other pages
